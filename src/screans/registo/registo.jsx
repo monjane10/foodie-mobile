@@ -12,8 +12,8 @@ function Registo(props) {
         <View style ={styles.container}>
         <Header texto="Criar uma conta"/>
         <View style={styles.formgroup}>
-        <TextBox texto="Nome Completo" />
-        <TextBox texto="Email" />
+        <TextBox texto="Nome Completo" placeholder="Hayati Monjane" />
+        <TextBox texto="Email" placeholder="exemplo@gmail.com" />
         <TextBox texto="Senha" isPassword={true} />
         <TextBox texto="Confirmar Senha" isPassword={true} />
         <View style={styles.btn}>

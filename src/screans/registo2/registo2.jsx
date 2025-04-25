@@ -12,10 +12,10 @@ function Registo2() {
         <View style ={styles.container}>
         <Header texto="Dados adicionais"/>
         <View style={styles.formgroup}>
-        <TextBox texto="Cidade" />
-        <TextBox texto="Bairro" />
-        <TextBox texto="Rua"/>
-        <TextBox texto="Telefone"/>
+        <TextBox texto="Cidade" placeholder="Ex: Maputo" />
+        <TextBox texto="Bairro" placeholder="Mavalane" />
+        <TextBox texto="Rua" placeholder="4001"/>
+        <TextBox texto="Telefone" placeholder="850741012"/>
         <View style={styles.btn}>
         <Button texto="Criar minha conta" />
         </View>
