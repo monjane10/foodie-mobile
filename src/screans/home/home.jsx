@@ -3,6 +3,7 @@ import { View, Text, Image } from 'react-native'
 import icons from '../../constants/icons.js'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import TextBox from '../../components/textbox/textbox.jsx';
+import Categorias from '../../components/categorias/categorias.jsx';
 import { useState } from 'react';
 
 function Home() {
@@ -18,7 +19,7 @@ function Home() {
             <TextBox placeholder="O que vamos pedir hoje?"  onChangeText ={(texto) => setBusca(texto) }
             value={busca} />
         </View>
-
+        <Categorias />
         </SafeAreaView>
     )
 }
