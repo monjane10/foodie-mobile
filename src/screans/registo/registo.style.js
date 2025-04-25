@@ -29,7 +29,7 @@ export const styles = {
         width: "100%",
         position: "absolute",
         bottom: 0,
-        marginBottom: 40,
+        marginBottom: 10,
 
     },
 

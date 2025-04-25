@@ -1,5 +1,5 @@
 import { View, Text, TouchableOpacity } from "react-native";
-import { styles } from "./registo.style.js";
+import { styles } from "./login.style.js";
 import Header from "../../components/header/header.jsx";
 import TextBox from "../../components/textbox/textbox.jsx";
 import Button from "../../components/button/button.jsx";
