@@ -17,7 +17,7 @@ function Registo2() {
         <TextBox texto="Rua"/>
         <TextBox texto="Telefone"/>
         <View style={styles.btn}>
-        <Button texto="Criar Conta" />
+        <Button texto="Criar minha conta" />
         </View>
         </View>
         </View>
