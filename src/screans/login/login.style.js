@@ -15,5 +15,26 @@ export const styles = {
         color: "white",
         padding: 14,
         textAlign: "center"
+    },
+    formgroup: {
+        width: "100%",
+        marginTop: 50,
+    },
+    btn: {
+        marginTop: 20,
+        width: "100%",
+    },
+    footer: {
+        width: "100%",
+        position: "absolute",
+        bottom: 0,
+        marginBottom: 50,
+    },
+
+    footertext: {
+        textAlign: "center",
+        fontSize: FONT_SIZE.md,
+        color: COLORS.dark_gray,
+        padding: 14,
     }
 }
