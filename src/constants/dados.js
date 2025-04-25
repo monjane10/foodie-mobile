@@ -73,5 +73,29 @@ export const restaurantes = [
         nome: "The Keba’s Bar",
         endereco: "Baia Mall, loja 112",
         logotipo: require("../assets/restaurante2.png")
+    },
+    {
+        id: 5,
+        nome: "Churrascaria e Pizzaria Boizão",
+        endereco: "Avenida Samuel Magaia, 954",
+        logotipo: require("../assets/restaurante1.png")
+    },
+    {
+        id: 6,
+        nome: "The Keba’s Bar",
+        endereco: "Avinida 24 de Julho, 512",
+        logotipo: require("../assets/restaurante2.png")
+    },
+    {
+        id: 7,
+        nome: "Churrascaria e Pizzaria Boizão",
+        endereco: "Maputo Shopping, loja 914",
+        logotipo: require("../assets/restaurante1.png")
+    },
+    {
+        id: 8,
+        nome: "The Keba’s Bar",
+        endereco: "Baia Mall, loja 112",
+        logotipo: require("../assets/restaurante2.png")
     }
 ];
