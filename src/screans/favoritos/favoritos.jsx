@@ -10,7 +10,7 @@ function Favoritos(){
 
     return (
         <View style={styles.container}>
-           <FlatList data={vazio} 
+           <FlatList data={restaurantes} 
                 keyExtractor={(restaurante) => restaurante.id}
                 shadowVerticalScrollIndicator={false}
                 renderItem={({item}) => {
