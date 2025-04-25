@@ -6,6 +6,7 @@ export const styles = {
        padding: 40,
        alignItems: "center",
        justifyContent: "center",
+       backgroundColor: COLORS.white,
         
     },
 

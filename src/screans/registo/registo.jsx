@@ -20,12 +20,6 @@ function Registo() {
         <Button texto="Proximo Passo" />
         </View>
         </View>
-        <View style={styles.footer}>
-            <TouchableOpacity>
-            <Text style={styles.footertext}>Entrar na minha conta</Text>
-            </TouchableOpacity>
-           
-        </View>
         </View>
         </ScrollView>
     )

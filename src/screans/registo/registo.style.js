@@ -6,6 +6,7 @@ export const styles = {
        padding: 40,
        alignItems: "center",
        justifyContent: "center",
+       backgroundColor: COLORS.white,
         
     },
 
@@ -19,7 +20,7 @@ export const styles = {
     formgroup: {
         width: "100%",
         marginTop: 50,
-        marginBottom: 40,
+        marginBottom: 170,
     },
     btn: {
         marginTop: 20,
