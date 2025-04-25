@@ -7,7 +7,7 @@ export default function App() {
   return (<>
     <Text style={styles.textos}>Hello World</Text>
 
-    <Button texto="Acessar" />
+    <Button texto="Entrar" />
   </>
   );
 }
