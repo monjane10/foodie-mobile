@@ -18,7 +18,7 @@ function Login() {
         </View>
         <View style={styles.footer}>
             <TouchableOpacity>
-            <Text style={styles.footertext}>Criar Conta</Text>
+            <Text style={styles.footertext}>Criar uma Conta</Text>
             </TouchableOpacity>
            
         </View>
