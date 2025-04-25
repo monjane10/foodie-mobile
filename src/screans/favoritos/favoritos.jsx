@@ -6,9 +6,11 @@ import Restaurante from "../../components/restaurante/restaurante.jsx";
 
 
 function Favoritos(){
+    const vazio =[];
+
     return (
         <View style={styles.container}>
-           <FlatList data={restaurantes} 
+           <FlatList data={vazio} 
                 keyExtractor={(restaurante) => restaurante.id}
                 shadowVerticalScrollIndicator={false}
                 renderItem={({item}) => {
@@ -17,6 +19,17 @@ function Favoritos(){
                         nome={item.nome}
                         endereco={item.endereco}
                         icone={icons.remove} />
+                    </View>
+                }}
+
+                contentContainerStyle={styles.containerList}
+
+                ListEmptyComponent={() => {
+                    return <View style={styles.vazio}>
+                        <Restaurante logotipo={icons.empty}
+                        nome="Nenhum favorito encontrado"
+                        endereco="Adicione um restaurante aos favoritos"
+                         />
                     </View>
                 }}
             />

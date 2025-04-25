@@ -7,5 +7,17 @@ export const styles = {
        backgroundColor: COLORS.white,
         
     },
+
+    containerList: {
+        flexGrow: 1,
+    },
+
+    vazio: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingBottom: 60,
+    },
+
    
 }
