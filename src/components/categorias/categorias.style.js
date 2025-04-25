@@ -1,33 +1,17 @@
 import { COLORS, FONT_SIZE } from "../../constants/theme"
 
 export const styles = {
-    container: {
-       flex: 1,
-       padding: 15,
-       backgroundColor: COLORS.white,
-        
+    icone: {
+       width: 65,
+       height: 65, 
     },
-
-    headerBar: {
-        height: 45,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        marginTop: 20,
+    categoria: {
+        paddingRight: 18,
     },
-
-    logo: {
-        width: 140,
-        height: 27,
-    },
-
-    cart: {
-        width: 30,
-        height: 30,
-    },
-
-    busca: {
-        marginBottom: 20,
+    descricao: {
+        fontSize: FONT_SIZE.xsm,
+        color: COLORS.dark_gray,
+        textAlign: 'center',
     },
 
    

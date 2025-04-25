@@ -1,9 +1,19 @@
-import { View, Text } from "react-native";
+import { View, Text, Image, ScrollView } from "react-native";
+import { styles } from "./categorias.style.js";
 
-function Categorias(){
+function Categorias(props){
     return (
         <View>
-            <Text>Categorias</Text>
+            <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+        {
+            props.dados.map((categoria, index) => {
+                return <View key={index} style={styles.categoria}>
+                    <Image source={categoria.icone} style={styles.icone} />
+                    <Text style={styles.descricao}>{categoria.descricao}</Text>
+                </View> 
+            })
+        }
+            </ScrollView>
         </View>
     )
 }
