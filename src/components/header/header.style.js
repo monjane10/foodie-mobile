@@ -7,7 +7,6 @@ export const styles = {
         width: "100%",
         justifyContent: "center",
         alignItems: "center",
-        padding: 40,
     },
 
     logo: {
