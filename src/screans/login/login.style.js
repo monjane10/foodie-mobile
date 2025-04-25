@@ -19,6 +19,7 @@ export const styles = {
     formgroup: {
         width: "100%",
         marginTop: 50,
+        marginBottom: 40,
     },
     btn: {
         marginTop: 20,
