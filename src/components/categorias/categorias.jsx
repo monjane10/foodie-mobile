@@ -1,4 +1,4 @@
-import { View, Text, Image, ScrollView } from "react-native";
+import { View, Text, Image, ScrollView, TouchableOpacity } from "react-native";
 import { styles } from "./categorias.style.js";
 
 function Categorias(props){
@@ -8,8 +8,10 @@ function Categorias(props){
         {
             props.dados.map((categoria, index) => {
                 return <View key={index} style={styles.categoria}>
+                    <TouchableOpacity>
                     <Image source={categoria.icone} style={styles.icone} />
                     <Text style={styles.descricao}>{categoria.descricao}</Text>
+                    </TouchableOpacity>
                 </View> 
             })
         }

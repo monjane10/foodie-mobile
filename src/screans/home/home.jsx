@@ -4,8 +4,9 @@ import icons from '../../constants/icons.js'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import TextBox from '../../components/textbox/textbox.jsx';
 import Categorias from '../../components/categorias/categorias.jsx';
-import {categorias} from '../../constants/dados.js';
+import {categorias, banners} from '../../constants/dados.js';
 import { useState } from 'react';
+import Banners from '../../components/banners/banners.jsx';
 
 function Home() {
     const [busca, setBusca] = useState('');
@@ -21,6 +22,7 @@ function Home() {
             value={busca} />
         </View>
         <Categorias dados ={categorias} />
+        <Banners dados = {banners} />
         </SafeAreaView>
     )
 }

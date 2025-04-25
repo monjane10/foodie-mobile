@@ -1,15 +1,16 @@
-import { View, Text, Image, ScrollView } from "react-native";
+import { View, Text, Image, ScrollView, TouchableOpacity } from "react-native";
 import { styles } from "./banners.style.js";
 
-function Categorias(props){
+function Banners(props){
     return (
         <View>
             <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
         {
-            props.dados.map((categoria, index) => {
-                return <View key={index} style={styles.categoria}>
-                    <Image source={categoria.icone} style={styles.icone} />
-                    <Text style={styles.descricao}>{categoria.descricao}</Text>
+            props.dados.map((banner, index) => {
+                return <View key={index} style={styles.banner}>
+                    <TouchableOpacity>
+                    <Image source={banner.icone} style={styles.icone} />
+                    </TouchableOpacity>
                 </View> 
             })
         }
@@ -18,4 +19,4 @@ function Categorias(props){
     )
 }
 
-export default Categorias;
+export default Banners;
