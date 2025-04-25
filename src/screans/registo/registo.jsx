@@ -5,7 +5,7 @@ import TextBox from "../../components/textbox/textbox.jsx";
 import Button from "../../components/button/button.jsx";
 
 
-function Registo() {
+function Registo(props) {
     return(
         
         <ScrollView>
@@ -17,7 +17,7 @@ function Registo() {
         <TextBox texto="Senha" isPassword={true} />
         <TextBox texto="Confirmar Senha" isPassword={true} />
         <View style={styles.btn}>
-        <Button texto="Proximo Passo" />
+        <Button texto="Proximo Passo" onPress={() => props.navigation.navigate("registo2")} />
         </View>
         </View>
         </View>

@@ -16,7 +16,10 @@ function Routes() {
                     headerShadowVisible: false,
                     title: "",
                     headerBackTitle: "Voltar" }} />
-                <Stack.Screen name="registo2" component={Registo2} options={{headerShown: false}} />
+                <Stack.Screen name="registo2" component={Registo2} options={{ //headerShown: false 
+                    headerShadowVisible: false,
+                    title: "",
+                    headerBackTitle: "Voltar"}} />
             </Stack.Navigator>
         </NavigationContainer>
     );

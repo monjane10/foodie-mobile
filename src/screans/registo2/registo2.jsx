@@ -20,12 +20,6 @@ function Registo2() {
         <Button texto="Criar Conta" />
         </View>
         </View>
-        <View style={styles.footer}>
-            <TouchableOpacity>
-            <Text style={styles.footertext}>Entrar na minha conta</Text>
-            </TouchableOpacity>
-           
-        </View>
         </View>
         </ScrollView>
     )

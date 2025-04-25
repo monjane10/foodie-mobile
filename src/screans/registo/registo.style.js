@@ -3,7 +3,8 @@ import { COLORS, FONT_SIZE } from "../../constants/theme"
 export const styles = {
     container: {
        flex: 1,
-       padding: 40,
+       paddingLeft: 40,
+       paddingRight: 40,
        alignItems: "center",
        justifyContent: "center",
        backgroundColor: COLORS.white,
@@ -20,7 +21,7 @@ export const styles = {
     formgroup: {
         width: "100%",
         marginTop: 50,
-        marginBottom: 170,
+        marginBottom: 240,
     },
     btn: {
         marginTop: 20,
