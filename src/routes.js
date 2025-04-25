@@ -4,6 +4,7 @@ import Login from './screans/login/login.jsx';
 import Registo from './screans/registo/registo.jsx';
 import Registo2 from './screans/registo2/registo2.jsx';
 import Home from './screans/home/home.jsx';
+import Favoritos from './screans/favoritos/favoritos.jsx';
 
 const Stack = createNativeStackNavigator();
 
@@ -11,6 +12,7 @@ function Routes() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
+                <Stack.Screen name="favoritos" component={Favoritos} options={{headerShown: true}} />    
                 <Stack.Screen name="home" component={Home} options={{headerShown: false}} />
                 <Stack.Screen name="login" component={Login} options={{headerShown: false}} />
                 <Stack.Screen name="registo" component={Registo} options={{
