@@ -1,19 +1,29 @@
-import { View, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity, Alert } from "react-native";
 import { styles } from "./login.style.js";
 import Header from "../../components/header/header.jsx";
 import TextBox from "../../components/textbox/textbox.jsx";
 import Button from "../../components/button/button.jsx";
+import { useState } from "react";
 
 
 function Login() {
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
+
+    function fazerLogin() {
+        Alert.alert("jobou");
+    }
+
     return(
         <View style ={styles.container}>
         <Header texto="Entre na tua conta"/>
         <View style={styles.formgroup}>
-        <TextBox texto="Email" />
-        <TextBox texto="Senha" isPassword={true} />
+        <TextBox texto="Email" placeholder="exemplo@gmail.com" onChangeText={(texto) => setEmail(texto)}
+        value={email} />
+        <TextBox texto="Senha" isPassword={true} onChangeText={(texto) => setSenha(texto)}
+        value={senha} />
         <View style={styles.btn}>
-        <Button texto="Entrar" />
+        <Button texto="Entrar" onPress={fazerLogin} />
         </View>
         </View>
         <View style={styles.footer}>

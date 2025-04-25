@@ -1,11 +1,9 @@
-import Login from "./src/screans/login/login.jsx";
-import Registo from "./src/screans/registo/registo.jsx";
-import Registo2 from "./src/screans/registo2/registo2.jsx";
+import Routes from "./src/routes.js";
 
 export default function App() {
 
   return (<>
-  <Registo2/>
+  <Routes/>
    
   </>
   );
