@@ -14,10 +14,10 @@ function Registo2() {
         <View style={styles.formgroup}>
         <TextBox texto="Cidade" />
         <TextBox texto="Bairro" />
-        <TextBox texto="Casa"/>
-        <TextBox texto="Número de BI"/>
+        <TextBox texto="Rua"/>
+        <TextBox texto="Telefone"/>
         <View style={styles.btn}>
-        <Button texto="Registar" />
+        <Button texto="Criar Conta" />
         </View>
         </View>
         <View style={styles.footer}>

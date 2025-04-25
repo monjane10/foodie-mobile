@@ -15,12 +15,12 @@ export const styles = {
     },
 
     input: {
-       backgroundColor: COLORS.white,
+       backgroundColor: COLORS.light_gray,
        width: "100%",
        padding: 20,
        borderRadius: 10,
        borderWidth: 1,
-       borderColor: COLORS.light_gray,
+       borderColor: COLORS.gray,
         
     },
 }
