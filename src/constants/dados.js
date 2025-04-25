@@ -53,25 +53,25 @@ export const restaurantes = [
     {
         id: 1,
         nome: "Churrascaria e Pizzaria Boizão",
-        endereco: "Alamensa Santos, 954",
+        endereco: "Avenida Samuel Magaia, 954",
         logotipo: require("../assets/restaurante1.png")
     },
     {
         id: 2,
         nome: "The Keba’s Bar",
-        endereco: "Rua Rui Barbosa, 512",
+        endereco: "Avinida 24 de Julho, 512",
         logotipo: require("../assets/restaurante2.png")
     },
     {
         id: 3,
         nome: "Churrascaria e Pizzaria Boizão",
-        endereco: "Alamensa Santos, 954",
+        endereco: "Maputo Shopping, 914",
         logotipo: require("../assets/restaurante1.png")
     },
     {
         id: 4,
         nome: "The Keba’s Bar",
-        endereco: "Rua Rui Barbosa, 512",
+        endereco: "Baia Mall, 512",
         logotipo: require("../assets/restaurante2.png")
     }
 ];
