@@ -26,6 +26,8 @@ function Home() {
         <Categorias dados ={categorias} />
         <Banners dados = {banners} />
 
+        <Text style={styles.titulo}>Restaurantes</Text>
+
         {
             restaurantes.map((restaurante, index) => {
                 return <View key={index}>

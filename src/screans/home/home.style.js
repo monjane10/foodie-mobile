@@ -30,5 +30,12 @@ export const styles = {
         marginBottom: 20,
     },
 
+    titulo: {
+        fontSize: FONT_SIZE.xl,
+        color: COLORS.dark_gray,
+        marginBottom: 10,
+        marginTop: 20,
+    }
+
    
 }
