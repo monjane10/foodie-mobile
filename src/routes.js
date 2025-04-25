@@ -10,12 +10,12 @@ function Routes() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                <Stack.Screen name="login" component={Login} options={{headerShown: false}} />
-                <Stack.Screen name="registo" component={Registo} options={{
+            <Stack.Screen name="registo" component={Registo} options={{
                     //headerShown: false 
                     headerShadowVisible: false,
                     title: "",
                     headerBackTitle: "Voltar" }} />
+                <Stack.Screen name="login" component={Login} options={{headerShown: false}} />
                 <Stack.Screen name="registo2" component={Registo2} options={{ //headerShown: false 
                     headerShadowVisible: false,
                     title: "",
