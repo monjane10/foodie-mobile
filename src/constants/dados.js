@@ -65,13 +65,13 @@ export const restaurantes = [
     {
         id: 3,
         nome: "Churrascaria e Pizzaria Boizão",
-        endereco: "Maputo Shopping, 914",
+        endereco: "Maputo Shopping, loja 914",
         logotipo: require("../assets/restaurante1.png")
     },
     {
         id: 4,
         nome: "The Keba’s Bar",
-        endereco: "Baia Mall, 512",
+        endereco: "Baia Mall, loja 112",
         logotipo: require("../assets/restaurante2.png")
     }
 ];
