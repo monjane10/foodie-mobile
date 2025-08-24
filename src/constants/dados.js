@@ -99,3 +99,79 @@ export const restaurantes = [
         logotipo: require("../assets/restaurante2.png")
     }
 ];
+
+
+export const pedidos = [
+    {
+        id: 1,
+        nome: "Churrascaria e Pizzaria Boizão",
+        endereco: "Avenida Ahmed Sekou Toure, 954",
+        status: "Entregue",
+        dt_pedido: "10/05/2024",
+        vl_total: 500,
+        logotipo: require("../assets/restaurante1.png")
+    },
+    {
+        id: 2,
+        nome: "The Keba’s Bar",
+        endereco: "Baia Mall,  Loja 512",
+        status: "Entregue",
+        dt_pedido: "10/05/2024",
+        vl_total: 1200,
+        logotipo: require("../assets/restaurante2.png")
+    },
+    {
+        id: 3,
+        nome: "Churrascaria e Pizzaria Boizão",
+        endereco: "Av. Karl Marks, 954",
+        status: "Entregue",
+        dt_pedido: "10/05/2024",
+        vl_total: 751,
+        logotipo: require("../assets/restaurante1.png")
+    },
+    {
+        id: 4,
+        nome: "The Keba’s Bar",
+        endereco: "Maputo Shopping, Loja 512",
+        status: "Entregue",
+        dt_pedido: "10/05/2025",
+        vl_total: 650,
+        logotipo: require("../assets/restaurante2.png")
+    },
+    {
+        id: 5,
+        nome: "Churrascaria e Pizzaria Boizão",
+        endereco: "Av. Ahmed Sekou Toure, 954",
+        status: "Entregue",
+        dt_pedido: "10/03/2025",
+        vl_total: 1490,
+        logotipo: require("../assets/restaurante1.png")
+    },
+    {
+        id: 6,
+        nome: "The Keba’s Bar",
+        endereco: "Av. Josina Machel, 512",
+        status: "Entregue",
+        dt_pedido: "10/05/2024",
+        vl_total: 480,
+        logotipo: require("../assets/restaurante2.png")
+    },
+    {
+        id: 7,
+        nome: "Churrascaria e Pizzaria Boizão",
+        endereco: "Av. Kim ill Sung, 954",
+        status: "Entregue",
+        dt_pedido: "10/05/2024",
+        vl_total: 1990,
+        logotipo: require("../assets/restaurante1.png")
+    },
+    {
+        id: 8,
+        nome: "The Keba’s Bar",
+        endereco: "Av. Angola, 512",
+        status: "Entregue",
+        dt_pedido: "10/05/2024",
+        vl_total: 1120,
+        logotipo: require("../assets/restaurante2.png")
+    }
+];
