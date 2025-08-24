@@ -19,5 +19,16 @@ export const styles = {
         paddingBottom: 60,
     },
 
+    empty: {
+        fontSize: FONT_SIZE.sm,
+        color: COLORS.dark_gray
+    },
+
+    logotipo: {
+        width: 80,
+        height: 80,
+        borderRadius: 6
+    }
+
    
 }

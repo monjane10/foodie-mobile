@@ -12,12 +12,14 @@ function Routes() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-            <Stack.Screen name="login" component={Login} options={{headerShown: false}} />
-            <Stack.Screen name="home" component={Home} options={{headerShown: false}} />
-                <Stack.Screen name="favoritos" component={Favoritos} options={{title: "Favoritos",
+                  <Stack.Screen name="favoritos" component={Favoritos} options={{title: "Favoritos",
                     headerTitleAlign: "center",
                     headerShadowVisible: false,
-                }} />    
+                }} />  
+                 <Stack.Screen name="home" component={Home} options={{headerShown: false}} />
+                 <Stack.Screen name="login" component={Login} options={{headerShown: false}} />
+           
+                
                 
                
                 <Stack.Screen name="registo" component={Registo} options={{
