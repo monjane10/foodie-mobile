@@ -17,8 +17,8 @@ function Pedidos(){
                     return <View>
                         <Pedido logotipo={item.logotipo}
                         nome={item.nome}
-                        vl_total={item.vl_total}
                         data={item.dt_pedido}
+                        vl_total={item.vl_total}
                         status={item.status}
                         icone={icons.remove} />
                     </View>

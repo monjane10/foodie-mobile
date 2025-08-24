@@ -14,15 +14,14 @@ function Routes() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-
+                   <Stack.Screen name="pedidos" component={Pedidos} options={{title: "Meus Pedidos",
+                    headerTitleAlign: "center",
+                    headerShadowVisible: false,
+                }} />  
                   <Stack.Screen name="perfil" component={Perfil} options={{title: "Meu Perfil",
                     headerTitleAlign: "center",
                     headerShadowVisible: false,
-                }} />  
-                 <Stack.Screen name="pedidos" component={Pedidos} options={{title: "Meus Pedidos",
-                    headerTitleAlign: "center",
-                    headerShadowVisible: false,
-                }} />  
+                }} />   
                   <Stack.Screen name="favoritos" component={Favoritos} options={{title: "Favoritos",
                     headerTitleAlign: "center",
                     headerShadowVisible: false,

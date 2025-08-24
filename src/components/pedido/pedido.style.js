@@ -23,7 +23,16 @@ export const styles = {
     valores: {
         flexDirection: 'row',
         justifyContent: 'space-between',
+        alignItems: 'center', 
         paddingVertical: 2,
+    },
+
+     nome: {
+        fontSize: FONT_SIZE.sm,
+        color: COLORS.dark_gray,
+        fontWeight: 'bold',
+        
+      
     },
 
     valor: {
