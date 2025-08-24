@@ -2,10 +2,11 @@ import { COLORS, FONT_SIZE } from "../../constants/theme"
 
 export const styles = {
     container: {
-       flex: 1,
-       padding: 15,
-       backgroundColor: COLORS.white,
-        
+        flex: 1,
+        paddingLeft: 15,
+        paddingRight: 15,
+        backgroundColor: COLORS.white,
+
     },
 
     containerList: {
@@ -24,7 +25,7 @@ export const styles = {
         color: COLORS.dark_gray
     },
 
-   
 
-   
+
+
 }
