@@ -30,7 +30,6 @@ export const styles = {
      nome: {
         fontSize: FONT_SIZE.sm,
         color: COLORS.dark_gray,
-        fontWeight: 'bold',
         
       
     },
