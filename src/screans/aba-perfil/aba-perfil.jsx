@@ -1,9 +1,9 @@
 import { View, TouchableOpacity, Image, Text } from "react-native";
-import { styles } from "./perfil.style";
+import { styles } from "./aba-perfil.style.js";
 import icons from "../../constants/icons.js";
 
 
-function Perfil() {
+function AbaPerfil() {
     return (
         <View style={styles.container}>
 
@@ -54,4 +54,4 @@ function Perfil() {
     );
 }
 
-export default Perfil;
+export default AbaPerfil;

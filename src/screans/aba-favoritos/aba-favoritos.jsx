@@ -1,25 +1,23 @@
 import { FlatList, View } from "react-native";
-import { pedidos } from "../../constants/dados.js";
-import { styles } from "./pedidos.style.js";
+import { restaurantes } from "../../constants/dados.js";
+import { styles } from "./aba-favoritos.style.js";
 import icons from "../../constants/icons.js";
-import Pedido from "../../components/pedido/pedido.jsx";
+import Restaurante from "../../components/restaurante/restaurante.jsx";
 
 
-function Pedidos(){
+function AbaFavoritos(){
     const vazio =[];
 
     return (
         <View style={styles.container}>
-           <FlatList data={pedidos} 
-                keyExtractor={(ped) => ped.id}
+           <FlatList data={restaurantes} 
+                keyExtractor={(restaurante) => restaurante.id}
                 shadowVerticalScrollIndicator={false}
                 renderItem={({item}) => {
                     return <View>
-                        <Pedido logotipo={item.logotipo}
+                        <Restaurante logotipo={item.logotipo}
                         nome={item.nome}
-                        data={item.dt_pedido}
-                        vl_total={item.vl_total}
-                        status={item.status}
+                        endereco={item.endereco}
                         icone={icons.remove} />
                     </View>
                 }}
@@ -39,4 +37,4 @@ function Pedidos(){
     )
 }
 
-export default Pedidos;
+export default AbaFavoritos;
