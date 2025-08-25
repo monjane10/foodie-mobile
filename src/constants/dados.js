@@ -175,3 +175,55 @@ export const pedidos = [
         logotipo: require("../assets/restaurante2.png")
     }
 ];
+
+export const restaurante = {
+    id: 1,
+    nome: "The Keba’s Bar",
+    endereco: "Av. Ahmed Sekou Toure, 512 - Maputo - Moçambique - MZ",
+    logotipo: require("../assets/restaurante2.png"),
+    foto: require("../assets/foto-restaurante.png"),
+    vlEntrega: 500,
+    isFavorito: true,
+    cardapio: [
+        {
+            idCategoria: 1,
+            categoria: "Ofertas",
+            itens: [
+                {
+                    idProduto: 1,
+                    nome: "Pizza Calabresa",
+                    descricao: "Massa artesanal, mussarela e calabresa",
+                    valor: 300,
+                    foto: require("../assets/produto-pizza.png")
+                },
+                {
+                    idProduto: 2,
+                    nome: "Coca-Cola Lata",
+                    descricao: "Coca-Cola lata de 300ml trincando de gelada",
+                    valor: 320,
+                    foto: require("../assets/produto-coca.png")
+                }
+            ]
+        },
+        {
+            idCategoria: 2,
+            categoria: "Mais Pedidos",
+            itens: [
+                {
+                    idProduto: 3,
+                    nome: "Pizza Mussarela",
+                    descricao: "Massa artesanal, mussarela e calabresa",
+                    valor: 430,
+                    foto: require("../assets/produto-pizza.png")
+                },
+                {
+                    idProduto: 4,
+                    nome: "Coca-Cola Litro",
+                    descricao: "Coca-Cola lata de 300ml trincando de gelada",
+                    valor: 1790,
+                    foto: require("../assets/produto-coca.png")
+                }
+            ]
+        }
+    ]
+};

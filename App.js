@@ -3,7 +3,7 @@ import RoutesAuth from "./src/routesAuth.js";
 
 
 
-const isUserAuthenticated = true;
+const isUserAuthenticated = false;
 
 export default function App() {
 
