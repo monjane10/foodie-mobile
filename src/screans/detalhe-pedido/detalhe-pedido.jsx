@@ -13,7 +13,7 @@ function DetalhePedido() {
                 <TouchableOpacity style={styles.backContainer}>
                     <Image source={icons.back} style={styles.back} />
                 </TouchableOpacity>
-                <Text style={styles.titulo}>Detalhe do producto</Text>
+                <Text style={styles.titulo}>Detalhe do pedido</Text>
             </View>
 
             <FlatList data={pedido.itens}

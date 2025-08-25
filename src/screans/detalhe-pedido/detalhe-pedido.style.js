@@ -27,7 +27,7 @@ export const styles = {
 
     backContainer: {
         position: "absolute",
-        top: 7,
+        top: 20,
         left: 0,
     },
     back: {
@@ -66,6 +66,12 @@ export const styles = {
         marginBottom: 2,
         marginTop: 15,
     },
+
+total: {
+    fontSize: FONT_SIZE.sm,
+    color: COLORS.dark_gray,
+    fontWeight:"bold"
+}
 
     
 
