@@ -39,4 +39,14 @@ export const styles = {
         padding: 8,
     },
 
+    delete: {
+        width: 30,
+        height: 30
+    },
+
+    deleteContainer: {
+        alignItems: "flex-end",
+        marginTop: 8
+    }
+
 }

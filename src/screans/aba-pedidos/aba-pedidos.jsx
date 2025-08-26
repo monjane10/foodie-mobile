@@ -5,8 +5,10 @@ import icons from "../../constants/icons.js";
 import Pedido from "../../components/pedido/pedido.jsx";
 
 
-function AbaPedidos(){
-    const vazio =[];
+function AbaPedidos(props){
+   function DetalhePedido() {
+        props.navigation.navigate("detalhe-pedido")
+   }
 
     return (
         <View style={styles.container}>
@@ -20,7 +22,9 @@ function AbaPedidos(){
                         data={item.dt_pedido}
                         vl_total={item.vl_total}
                         status={item.status}
-                        icone={icons.remove} />
+                        icone={icons.remove}
+                        onClickPedido={DetalhePedido }
+                         />
                     </View>
                 }}
 
@@ -29,8 +33,8 @@ function AbaPedidos(){
                 ListEmptyComponent={() => {
                     return <View style={styles.vazio}>
                         <Restaurante logotipo={icons.empty}
-                        nome="Nenhum favorito encontrado"
-                        endereco="Adicione um restaurante aos favoritos"
+                        nome="Ainda nao fez nenhum pedido"
+                        endereco="Adicione um item  aos carinho"
                          />
                     </View>
                 }}

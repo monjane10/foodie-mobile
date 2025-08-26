@@ -244,8 +244,8 @@ export const pedido = {
             descricao: "Massa artesanal, mussarela e calabresa",
             foto: require("../assets/produto-pizza.png"),
             qtd: 2,
-            vlUnitario: 30.00,
-            vlTotal: 1240
+            vlUnitario: 500.00,
+            vlTotal: 500
         },
         {
             idItem: 2,
@@ -254,8 +254,8 @@ export const pedido = {
             descricao: "Coca-Cola lata de 300ml trincando de gelada",
             foto: require("../assets/produto-coca.png"),
             qtd: 1,
-            vlUnitario: 6.00,
-            vlTotal: 600
+            vlUnitario: 60,
+            vlTotal: 60
         }
     ]
 };

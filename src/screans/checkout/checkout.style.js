@@ -44,6 +44,11 @@ total: {
     fontSize: FONT_SIZE.sm,
     color: COLORS.dark_gray,
     fontWeight:"bold"
+},
+
+containerBtn: {
+    marginTop: 10,
+    
 }
 
     

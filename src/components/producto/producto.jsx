@@ -1,5 +1,6 @@
 import { TouchableOpacity, Image, View, Text } from "react-native";
 import { styles } from "./producto.style";
+import icons from "../../constants/icons.js";
 
 
 function Producto(props) {
@@ -16,6 +17,18 @@ function Producto(props) {
 
                 }
                 </Text>
+
+                {
+                    props.onClickDelete &&
+                    <TouchableOpacity
+                        style={styles.deleteContainer}
+                        onPress={() => props.onClickDelete()}
+                    >
+                        <Image source={icons.remove} style={styles.delete} />
+                    </TouchableOpacity>
+                }
+
+
             </View>
         </TouchableOpacity>
     )
