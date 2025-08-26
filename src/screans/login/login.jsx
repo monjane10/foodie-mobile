@@ -16,7 +16,7 @@ function Login(props) {
 
     return(
         <View style ={styles.container}>
-        <Header texto="Entre na tua conta"/>
+        <Header texto="Bem - Vindo ao Foodie"/>
         <View style={styles.formgroup}>
         <TextBox texto="Email" placeholder="exemplo@gmail.com" onChangeText={(texto) => setEmail(texto)}
         value={email} />
